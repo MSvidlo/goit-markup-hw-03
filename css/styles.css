@@ -6,7 +6,21 @@ color: currentColor;}
 
 p,h1,h2,h3,h4,h5,h6{margin-top: 0;
 margin-bottom: 0;}
+
 img{display: block;}
+
+address{font-style: normal;}
+
+.container
+{width:1164px
+padding-left: 12px;
+padding-right: 12px;
+margin: 0,auto;
+}
+
+header{
+      padding-top: 24px;
+      padding-bottom: 24px;}
 
 .header-logo {color:#4D5AE5;
     font-family: "Raleway", sans-serif;
