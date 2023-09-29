@@ -73,7 +73,7 @@ header{
 .section-one {}
 
 .section-one-container {background-color: #2E2F42;
-padding: 191px 460px 185px 484px }
+padding: 191px 460px 185px 484px;}
 
 .section-one-title {color: #FFF;
     text-align: center;
@@ -81,7 +81,9 @@ padding: 191px 460px 185px 484px }
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-max-width: 484px;}
+max-width: 484px;
+width: 496px;
+}
 
 .button {font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
@@ -91,9 +93,15 @@ max-width: 484px;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    }
+    margin-top: 48px;}
 .button:hover {background-color: #404BBF;}
 .button:focus {background-color: #404BBF;}
+
+.adwentages-container{ padding-top: 123px;
+padding-left: 156px;
+padding-right: 156px;
+padding-bottom: 120px;}
+
 .advantages-item-name {
         color: #2E2F42;
         font-family: "Roboto", sans-serif;
@@ -109,15 +117,23 @@ max-width: 484px;}
     line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;}
-.section-team{background-color: #F4F4FD}
-.section-team-cards {background-color: #FFFFFF}
+
+.section-team-conteiner {
+padding: 0 156px 0 156px;}
+
+.section-team{background color:#F4F4FD;}
+.section-team-cards {background-color: #F4F4FD;
+padding-bottom: 120px;}
 .section-team-title {color:#2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    padding: 120px 639px 72px 639px;
+    width: 162px;
+    background-color: #F4F4FD}
 
 
 .section-team-subtitle {color:#2E2F42;
@@ -136,15 +152,26 @@ max-width: 484px;}
     font-style: normal;
     letter-spacing: 0.02em;}
 
-.section-portfolio{background-color: #F4F4FD}
-.section-portfolio-list-item {background-color: #FFFFFF}
+.portfolio-container{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;}
+
+.section-portfolio{}
+
+.section-portfolio-list-item {background-color: #FFFFFF;}
+
 .section-portfolio-title {color:#2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+    padding-bottom: 72px;}
+
+
 .section-portfolio-subtitle {color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -159,6 +186,10 @@ max-width: 484px;}
     letter-spacing: 0.02em;}
 
 .footer {background:#2E2F42;}
+
+.footer-container{padding-top: 101.5px;
+    padding-bottom: 100px;
+    padding-left: 156px;}
 
 .footer-logo {color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -181,4 +212,6 @@ max-width: 484px;}
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    padding-right: 1020px;
+    width: 264px;}
