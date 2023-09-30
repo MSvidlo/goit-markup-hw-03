@@ -182,9 +182,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+.section-adwentages {padding: 120px 0;}
 .adwentages-container{
-    padding: 120px 0;
+   
 }
  
 .section-advantages-list{
