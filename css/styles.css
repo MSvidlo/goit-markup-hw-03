@@ -223,25 +223,10 @@ header {
     gap: 8px
 }
 *========================section3=============================*
-.section-team-container {
-    padding: 0 156px;
-}
-.team-list{
-    display: flex;
-    gap: 24px;
-    padding-top: 120px;
-}
-.section-team{
-    background color:var(--CLOUD, #F4F4FD);
-}
-.section-team-cards {
-    background-color: #F4F4FD;
-    width: calc ((1158 - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-    }
+
 
 .section-team-title {
-    color:#2E2F42;
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -251,8 +236,34 @@ header {
     width: 162px;
     background-color: #F4F4FD;
     margin-top: 0px;
-    padding: 120px 639px 72px 639px;
+    margin-bottom: 72px;
+    display: block;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+    height: 732px;
+    padding-bottom: 0px;
+    padding-left: 120px;
+}
+
+.section-team-container {
+    padding: 120px 0;
+}
+
+.section-team{
+    background color:var(--CLOUD, #F4F4FD);
+}
+.section-team-cards {
+    background-color: #F4F4FD;
+    width: calc ((1158 - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     }
+
+
 
 .section-advantages-list{}
 
@@ -263,7 +274,8 @@ header {
     font-weight: 500;
     line-height: 1.2;
     font-style: normal;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    margin-top: 32px;}
 
 .section-team-text {
     color:#434455;
