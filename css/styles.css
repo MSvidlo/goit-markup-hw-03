@@ -175,11 +175,11 @@ img {
 .section-advantages-list{
     display: flex;
     gap: 24px;
-    margin-left: 72px;
+    margin-left: 72px
     }
 
-.second-list-item{
-    width: calc((100% - 72px) / 4);
+ .second-list-item {
+    width: calc((100%-72)/4);}
     
 .advantages-item-name {
     color: #2E2F42;
