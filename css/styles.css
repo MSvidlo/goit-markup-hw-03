@@ -50,7 +50,8 @@ header {
 
 .header-container{ 
     display: flex;
-    align-items: center;}
+    align-items: center;
+    gap: 332px;}
 
 .header-logo {
     color:#4D5AE5;
@@ -61,7 +62,8 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
-    align-items: center;}
+    align-items: center;
+    margin-left: 156px;}
 
 .navigation-header{
     display: flex;
@@ -78,7 +80,8 @@ header {
 
 .list-container{
     display: flex;
-    gap: 40px;}
+    gap: 40px;
+    margin-right: 156px;}
 
 
 
@@ -129,7 +132,10 @@ header {
 
 .section-one-container {
     background-color: #2E2F42;
-    padding: 188px 460px 0 484px;}
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    padding: 188px 0}
 
 .section-one-title {
     color: #FFF;
@@ -139,7 +145,7 @@ header {
     line-height: 1.07;
     letter-spacing: 0.02em;
     width: 496px;
-        }
+    margin-left: 460px; }
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -150,16 +156,15 @@ header {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin-top: 48px;
-    margin-bottom: ;
-    margin-right: 647px;
-    margin-left: 624px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     display: inline-flex;
+    border: none;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;}
+    margin-top: 48px;
+    margin-left: 624px;
+    }
+
 
 .button:hover {
     background-color: #404BBF;
@@ -177,9 +182,11 @@ header {
  
 .section-advantages-list{
     display: flex;
-    width:calc((100%-72)/4);
+    gap: 24px;
+   
 }
- 
+ .advantages-list-item{
+    width: calc((100%-72)/4);}
 .advantages-item-name {
         color: #2E2F42;
         font-family: "Roboto", sans-serif;
