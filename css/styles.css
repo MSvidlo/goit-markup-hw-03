@@ -48,6 +48,9 @@ header {
     margin: 0,auto;
 }
 
+.header-container{ 
+    display: flex;
+    align-items: center;}
 
 .header-logo {
     color:#4D5AE5;
@@ -56,16 +59,26 @@ header {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;}
 
-.contacts {font-style: normal;}
-
+.navigation-header{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
 .list-menu-item {
     display: flex;
+    gap: 40px;
 }
+.contacts {font-style: normal;
+ }
 
 .list-container{
-    display: flex;}
+    display: flex;
+    gap: 40px;}
 
 
 
