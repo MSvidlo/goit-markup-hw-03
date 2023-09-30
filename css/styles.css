@@ -175,10 +175,10 @@ img {
 .section-advantages-list{
     display: flex;
     gap: 24px;
-    margin-left: 72px
+    padding-left: 120px;
     }
 
- .second-list-item {
+ .second-list-item{
     width: calc((100%-72)/4);}
     
 .advantages-item-name {
