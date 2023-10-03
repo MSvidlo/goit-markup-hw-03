@@ -78,7 +78,7 @@ img {
     margin-right: 76px;
     align-items: center;
 }
-
+.header-studio{color: var(--NAVY-BLUE, #2E2F42);}
 .header-logo-color {
     color: #2e2f42;
 }
